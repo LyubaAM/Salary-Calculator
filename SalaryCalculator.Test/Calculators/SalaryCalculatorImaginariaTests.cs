@@ -10,11 +10,6 @@ namespace SalaryCalculator.Test.Calculators
     [TestFixture]
     public class SalaryCalculatorImaginariaTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
         public void CalculateNetSalary_WithSalaryLessThanTaxFreeAmount_ReturnsSameSallary()
         {

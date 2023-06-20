@@ -1,12 +1,10 @@
 ﻿using SalaryCalculator.Calculators;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SalaryCalculator
 {
+    /// <summary>
+    /// Factory for creating a calculator instance depending on the choice of country calculator
+    /// </summary>
     public static class CalculatorFactory
     {
         public static ISalaryCalculator Create(string CalculatorName, double param)
